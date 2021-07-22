@@ -33,7 +33,7 @@
   font-weight: bold;
   height: 50px;
   border: none;
-  margin-bottom: 20px;
+  padding: 18px;
 }
 #map-icon {
   color: "whitesmoke";
@@ -120,7 +120,15 @@ blockquote {
   color: whitesmoke;
 }
 #about-right-col {
-  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#about-h3 {
+  text-align: center;
+}
+#about-contact-btn:hover {
+  color: #28292c;
+  background-color: #ff7043;
 }
 @media only screen and (min-width: 768px) {
   #left-body {
@@ -214,8 +222,9 @@ blockquote {
     font-weight: bold;
     height: 50px;
     border: none;
-    padding-right: 1em;
+    padding: 12px 18px;
   }
+
   #about-right-col {
     margin-top: 50px;
   }

@@ -70,10 +70,7 @@ export default function About() {
             </Row>
             <Row id="about-row-2">
               <Col lg={4} sm={12}>
-                <h3 id="about-h3">
-                  Join with us <br />
-                  to make big difference
-                </h3>
+                <h3 id="about-h3">Join with us to make big difference</h3>
               </Col>
               <Col lg={8} sm={12}>
                 <p id="about-p">
