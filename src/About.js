@@ -11,6 +11,7 @@ import ranjith from "./components/images/ranjith.jpg";
 import { useState } from "react";
 import "./styles/about.css";
 import brand_logo from "./components/images/brand_logo.gif";
+import { Link } from "react-router-dom";
 
 export default function About() {
   const members = [
@@ -153,7 +154,9 @@ export default function About() {
                     </li>
                   </ul>
                   <div id="about-contact-btn-container">
-                    <button id="about-contact-btn">Contact us</button>
+                    <Link to="/contact" id="about-contact-btn">
+                      Contact us
+                    </Link>
                   </div>
                 </Col>
               </Row>
