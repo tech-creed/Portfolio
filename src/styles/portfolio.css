@@ -1,0 +1,53 @@
+.main-portfolio {
+  background-color: #28292c;
+  padding: 32px 0;
+}
+.main-portfolio h2 {
+  color: #ff7043;
+  font-size: 42px;
+  font-weight: 100;
+  text-align: center;
+  font-family: "Poppins";
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  margin-bottom: 32px;
+  transition: 0.4s ease-in-out;
+}
+.project img {
+  width: 100%;
+  margin: 8px 0;
+  border-radius: 9px;
+}
+.project h6 {
+  color: #ff7043;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.project p {
+  color: #f7f8f8;
+  margin: 4px 0 0 0;
+  font-family: "Poppins";
+  font-weight: 100;
+}
+.project:hover {
+  transform: scale(1.065);
+}
+
+.project > .pro_links > a {
+  color: #ff7043 !important;
+}
+.project > .pro_links {
+  width: 100%;
+  text-align: right;
+  padding: 0 32px;
+}
+
+.project > .pro_links > a:hover {
+  color: #f7f8f8 !important;
+}

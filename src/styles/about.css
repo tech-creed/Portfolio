@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+#about-img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+}
+#team-right-col h4 {
+  color: #ff7043;
+}
+#team-right-col {
+  margin-top: 25px;
+}
+#team-ul {
+  list-style: none;
+}
+#github-link {
+  color: #ff7043;
+  padding-right: 1em;
+}
+#team-ul li {
+  text-align: left;
+  padding: 15px 15px 15px 15px;
+}
+
+#about-contact-btn {
+  background-color: #ff7043;
+  width: 75%;
+  color: whitesmoke;
+  font-size: large;
+  font-weight: bold;
+  height: 50px;
+  border: none;
+  margin-bottom: 20px;
+}
+#map-icon {
+  color: "whitesmoke";
+  margin-right: 10px;
+}
+#map-png {
+  height: 50%;
+  width: 100%;
+}
+#about-ul {
+  padding: 0px;
+}
+#about-right-title {
+  font-family: "Cambria";
+  font-size: 48px;
+  text-align: center;
+  color: #ff7043;
+  margin-top: 25px;
+}
+#team-ul {
+  list-style: none;
+}
+#about-ul {
+  list-style: none;
+}
+#team-member-img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+#about-row-2 {
+  margin-top: 25px;
+}
+#about-p {
+  margin-top: 25px;
+  margin-left: 5%;
+  text-align: left;
+}
+blockquote {
+  color: #28292c;
+  background: #ff7043;
+  padding: 20px 20px 20px 25px;
+  font-weight: 600;
+  font-style: italic;
+  width: 92%;
+}
+#card-left-about {
+  margin-left: 5%;
+}
+#about-left-h-6 {
+  margin-top: 20px;
+}
+#about-hr {
+  margin-left: 10%;
+  width: 90%;
+}
+#card-size {
+  width: 16rem;
+  margin-left: 5%;
+  margin-bottom: 25px;
+}
+#blockquote-col {
+  margin-left: 5%;
+  margin-top: 25px;
+}
+#about-card-body {
+  display: flex;
+  flex-direction: row;
+  background-color: #28292c;
+  color: whitesmoke;
+}
+#card-about-icon-btn {
+  margin-left: auto;
+  order: 2;
+  border: none;
+  height: 100%;
+  background-color: #ff7043;
+}
+#right-col {
+  background-color: #28292c;
+  color: whitesmoke;
+}
+#about-right-col {
+  margin-top: 50px;
+}
+@media only screen and (min-width: 768px) {
+  #left-body {
+    overflow: scroll;
+    overflow-y: hidden;
+
+    height: 100vh;
+  }
+
+  blockquote {
+    color: #28292c;
+    background: #ff7043;
+    padding: 20px 20px 20px 25px;
+    font-weight: 600;
+    font-style: italic;
+    width: 92%;
+  }
+
+  #blockquote-col {
+    margin-left: 5%;
+    margin-top: 25px;
+  }
+  #about-ul {
+    list-style: none;
+  }
+  #right-col {
+    background-color: #28292c;
+    color: whitesmoke;
+    height: 88vh;
+  }
+  #about-left-h-6 {
+    text-align: left;
+    margin-left: 50px;
+  }
+  #about-hr {
+    margin-left: 50px;
+    width: 90%;
+  }
+  #card-left-about {
+    margin-left: 50px;
+  }
+  #card-size {
+    width: 16rem;
+  }
+  #github-link {
+    color: #ff7043;
+    padding-right: 1em;
+  }
+
+  #team-member-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+  #team-member-name {
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 20px;
+  }
+  #about-card-body {
+    display: flex;
+    flex-direction: row;
+    background-color: #28292c;
+    color: whitesmoke;
+  }
+  #card-about-icon-btn {
+    margin-left: auto;
+    order: 2;
+    border: none;
+    height: 100%;
+    background-color: #ff7043;
+  }
+  #card-about-icon {
+    font-size: large;
+  }
+  #about-card-img {
+    height: 300px;
+    width: 100%;
+  }
+  #h-2 {
+    color: #ff7043;
+  }
+  #about-contact-btn {
+    background-color: #ff7043;
+    width: 75%;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    height: 50px;
+    border: none;
+    padding-right: 1em;
+  }
+  #about-right-col {
+    margin-top: 50px;
+  }
+  #team-right-col {
+    margin-top: 25px;
+  }
+  #team-ul {
+    list-style: none;
+  }
+  #about-ul li {
+    padding: 25px 25px 25px 25px;
+  }
+  #team-ul li {
+    text-align: left;
+    padding: 15px 15px 15px 15px;
+  }
+  #map-icon {
+    color: "whitesmoke";
+    margin-right: 10px;
+  }
+  #left-body {
+    overflow: scroll;
+    overflow-x: hidden;
+
+    height: 88vh;
+  }
+  #map-png {
+    height: 50%;
+    width: 100%;
+  }
+  #about-right-title {
+    font-family: "Cambria";
+    font-size: 32px;
+    text-align: center;
+    color: #ff7043;
+    margin-top: 25px;
+  }
+  blockquote q {
+    font-size: medium;
+  }
+  #about-row-2 {
+    margin-top: 25px;
+  }
+
+  #about-img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+  }
+  #col-1 {
+    background-color: #28292c;
+  }
+  #about-p {
+    text-align: left;
+    margin-top: 5px;
+  }
+  #about-h3 {
+    text-align: left;
+    margin-left: 50px;
+  }
+}
+
+.location_para {
+  text-align: center;
+}
+
+#about-contact-btn-container {
+  text-align: center;
+}

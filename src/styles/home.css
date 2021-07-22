@@ -1,0 +1,242 @@
+.alice-carousel__dots {
+  margin: 0 auto;
+}
+.caro img {
+  pointer-events: none;
+}
+.homecaro {
+  user-select: none;
+}
+
+.caro-content a:hover {
+  color: #28292c;
+  background-color: #f7f8f8;
+  box-shadow: 0px 0px 6px 1px #ffffff93;
+}
+.slide-move {
+  font-family: "Poppins";
+  font-weight: 100;
+  position: absolute;
+  right: 64px;
+  text-align: end;
+  bottom: 0px;
+  color: rgba(255, 255, 255, 0.486);
+}
+@media (max-width: 992px) {
+  .caro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 88vh;
+    justify-content: center;
+    background-color: #28292c;
+  }
+  .caro-item2 {
+    flex-direction: column-reverse;
+  }
+  .caro-content1 p {
+    padding: 0 12px;
+  }
+  .caro-content1,
+  .caro-content2,
+  .caro-content3,
+  .caro-content4 {
+    width: 100%;
+  }
+  .caro1-img,
+  .caro2-img,
+  .caro3-img {
+    width: 100%;
+    margin: auto 0px;
+    z-index: 5;
+  }
+  .caro1-img img,
+  .caro2-img img,
+  .caro3-img img {
+    width: 100%;
+  }
+  .bg {
+    position: absolute;
+    z-index: 0;
+    opacity: 0.6;
+  }
+  .bg img {
+    width: 112px;
+    height: 112px;
+  }
+  .caro-content1 {
+    background-color: #f7f8f89c;
+    border-radius: 12px;
+    color: #28292c;
+  }
+  .caro-content2,
+  .caro-content3,
+  .caro-content4 {
+    padding: 0 5%;
+    color: #f7f8f8;
+  }
+  .caro-content {
+    margin-top: 10%;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .caro-item1 {
+    background-image: url("../components/images/fading_waves.gif");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+  }
+  .caro-content h2 {
+    font-size: 17px;
+    font-family: "Cambria";
+    font-size: 44px;
+    text-align: center;
+  }
+  .caro-content p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Poppins";
+    font-weight: 200;
+  }
+  .caro-content a {
+    width: fit-content;
+    color: #28292c;
+    background-color: #ff7043;
+    padding: 10px 12px;
+    border-radius: 6px;
+  }
+  .style-bg-img2 {
+    bottom: 28vh;
+    left: 7vw;
+  }
+  .style-bg-img3 {
+    bottom: 26vh;
+    right: 7vw;
+  }
+  .style-bg-img4 {
+    bottom: 20vh;
+    right: 5vw;
+  }
+  .caro-content4 .conlinks {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .caro3-img {
+    animation: fadeInUp infinite ease-out;
+    animation-duration: 6s;
+  }
+}
+
+@media (min-width: 992px) {
+  .caro {
+    display: flex;
+    width: 100%;
+    height: 88vh;
+    justify-content: center;
+    background-color: #28292c;
+  }
+
+  .caro-content {
+    margin: 5% 0px auto 0px;
+    padding: 5%;
+  }
+  .caro-content1 {
+    background-color: #f7f8f89c;
+    width: 50%;
+    border-radius: 36px;
+    color: #28292c;
+  }
+
+  .caro-content2,
+  .caro-content3,
+  .caro-content4 {
+    width: 50%;
+    padding: 0 5%;
+    color: #f7f8f8;
+  }
+  .caro-item1 {
+    background-image: url("../components/images/fading_waves.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .caro1-img,
+  .caro2-img,
+  .caro3-img {
+    width: 45%;
+    margin: auto 0px;
+    z-index: 5;
+  }
+  .caro img {
+    width: 100%;
+  }
+
+  .caro-content h2 {
+    font-family: "Cambria";
+    font-size: 5vw;
+  }
+  .caro-content a {
+    color: #28292c;
+    font-size: 17px;
+    background-color: #ff7043;
+    padding: 15px 18px;
+    border-radius: 6px;
+  }
+  .caro-content p {
+    font-size: 1.5vw;
+    margin-bottom: 30px;
+    font-family: "Poppins";
+    font-weight: 100;
+  }
+
+  .style-bg-img2 {
+    top: 8vh;
+    left: 34vw;
+  }
+  .style-bg-img3 {
+    top: 15vh;
+    right: 23vw;
+  }
+  .style-bg-img4 {
+    bottom: 10vh;
+    right: 10vw;
+  }
+  .caro-content4 {
+    z-index: 5;
+    width: 100%;
+    text-align: center;
+  }
+  .caro-content4 .conlinks {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .bg {
+    position: absolute;
+    height: 152px;
+    width: 152px;
+    z-index: 0;
+    opacity: 0.3;
+  }
+  .caro3-img {
+    animation: fadeInBottomLeft infinite ease-in-out;
+    animation-duration: 4s;
+  }
+}
+.caro-content4 > h2 {
+  font-size: 32px;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 100;
+}
+
+.caro-content4 > p {
+  text-align: right;
+  font-family: "Cambria";
+  font-weight: 100;
+}

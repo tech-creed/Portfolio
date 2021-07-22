@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d31cf33.chunk.css",
+    "main.js": "/static/js/main.c332834f.chunk.js",
+    "main.js.map": "/static/js/main.c332834f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
+    "static/css/2.f15dcabe.chunk.css": "/static/css/2.f15dcabe.chunk.css",
+    "static/js/2.46193b65.chunk.js": "/static/js/2.46193b65.chunk.js",
+    "static/js/2.46193b65.chunk.js.map": "/static/js/2.46193b65.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f15dcabe.chunk.css.map": "/static/css/2.f15dcabe.chunk.css.map",
+    "static/css/main.1d31cf33.chunk.css.map": "/static/css/main.1d31cf33.chunk.css.map",
+    "static/js/2.46193b65.chunk.js.LICENSE.txt": "/static/js/2.46193b65.chunk.js.LICENSE.txt",
+    "static/media/aakash.826b417f.jpeg": "/static/media/aakash.826b417f.jpeg",
+    "static/media/about.876a1922.svg": "/static/media/about.876a1922.svg",
+    "static/media/brand_logo.b9f35f4b.gif": "/static/media/brand_logo.b9f35f4b.gif",
+    "static/media/home.css": "/static/media/fading_waves.d4b12048.gif",
+    "static/media/manoj.67b37167.jpeg": "/static/media/manoj.67b37167.jpeg",
+    "static/media/mukilan.ac35fc61.jpg": "/static/media/mukilan.ac35fc61.jpg",
+    "static/media/ranjith.49014946.jpg": "/static/media/ranjith.49014946.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ebc510a.js",
+    "static/css/2.f15dcabe.chunk.css",
+    "static/js/2.46193b65.chunk.js",
+    "static/css/main.1d31cf33.chunk.css",
+    "static/js/main.c332834f.chunk.js"
+  ]
+}
